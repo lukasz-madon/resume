@@ -20,7 +20,7 @@ class JobMixin(object):
         )
 
 
-# Expirience
+# Experience
 class GMG(JobMixin):
     company = "Green Man Gaming Ltd"
     location = "London, United Kindom"
@@ -150,11 +150,11 @@ Project = namedtuple("Project", "name description")
 
 
 if __name__ == "__main__":
-    expirience = [GMG(), Firestartr(), Lyst(), Caplin(), MorganStanley(), ABB()]
+    experience = [GMG(), Firestartr(), Lyst(), Caplin(), MorganStanley(), ABB()]
     print NAME
     print EMAIL
-    print "Expirience:"
-    for exp in expirience:
+    print "Experience:"
+    for exp in experience:
         print exp
 
     print "Education:"

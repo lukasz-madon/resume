@@ -22,11 +22,25 @@ class JobMixin(object):
 
 # Experience
 class GMG(JobMixin):
+    company = "RolePoint"
+    location = "London, United Kindom"
+    title = "Full Stack Developer"
+    started = datetime(2015, 11, 11)
+    left = "Current"
+    description = [
+        "Integrated multiple Application Tracking Systems for a single unified API gateway (Python 3, asyncio, REST)",
+        "Implemented job recommendation engine for matching candidates based on seniority levels, location and profile",
+        "Create a new website for referrals (React, CoffeeScript, Bacon.js)",
+        "Created email editor with custom templeting and autocomplete (Backbone)"
+    ]
+
+
+class GMG(JobMixin):
     company = "Green Man Gaming Ltd"
     location = "London, United Kindom"
     title = "Full Stack Developer"
     started = datetime(2014, 9, 1)
-    left = "Current"
+    left = datetime(2015, 11, 11)
     description = [
         "Extending bespoke e-commerce solution (Python, Django).",
         "Integrating third-party API (Python, Cellery).",

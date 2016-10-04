@@ -1,9 +1,10 @@
-from datetime import datetime
+import base64
 from collections import namedtuple
+from datetime import datetime
 
 
 NAME = "Lukasz Madon"
-EMAIL = "lukasz.madon at google's mail"
+EMAIL = base64.b64decode("bHVrYXN6Lm1hZG9u") + "@gmail.com"
 
 
 class JobMixin(object):
